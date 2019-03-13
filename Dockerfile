@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/elasticsearch
+FROM elasticsearch:6.6.0
 
 # Install HEAD plugin
 RUN \
